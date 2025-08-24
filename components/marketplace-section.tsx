@@ -53,7 +53,7 @@ export function MarketplaceSection() {
               </div>
 
               <Button
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white"
+                className="w-full bg-blue-600 hover:bg-blue-700 text-white cursor-pointer"
                 onClick={() => window.open("https://www.ozon.ru/", "_blank")}
               >
                 Перейти в магазин на Ozon
@@ -97,7 +97,7 @@ export function MarketplaceSection() {
               </div>
 
               <Button
-                className="w-full bg-purple-600 hover:bg-purple-700 text-white"
+                className="w-full bg-purple-600 hover:bg-purple-700 text-white cursor-pointer"
                 onClick={() => window.open("https://www.wildberries.ru/", "_blank")}
               >
                 Перейти в магазин на WB

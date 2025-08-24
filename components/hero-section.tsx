@@ -37,7 +37,7 @@ export function HeroSection() {
           <div className="flex justify-center">
             <Button
               size="lg"
-              className="bg-primary hover:bg-primary/90 text-lg px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+              className="bg-primary hover:bg-primary/90 text-lg px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 cursor-pointer"
             >
               Посмотреть каталог
               <ArrowRight className="w-5 h-5 ml-2" />

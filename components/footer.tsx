@@ -63,7 +63,7 @@ export function Footer() {
             <div className="space-y-4">
               <Button
                 variant="outline"
-                className="w-full justify-start bg-transparent border-background/30 text-background hover:bg-background/10"
+                className="w-full justify-start bg-transparent border-background/30 text-background hover:bg-background/10 cursor-pointer"
                 onClick={() => window.open("https://www.ozon.ru/", "_blank")}
               >
                 <div className="w-6 h-6 bg-blue-600 rounded mr-3 flex items-center justify-center">
@@ -74,7 +74,7 @@ export function Footer() {
               </Button>
               <Button
                 variant="outline"
-                className="w-full justify-start bg-transparent border-background/30 text-background hover:bg-background/10"
+                className="w-full justify-start bg-transparent border-background/30 text-background hover:bg-background/10 cursor-pointer"
                 onClick={() => window.open("https://www.wildberries.ru/", "_blank")}
               >
                 <div className="w-6 h-6 bg-purple-600 rounded mr-3 flex items-center justify-center">

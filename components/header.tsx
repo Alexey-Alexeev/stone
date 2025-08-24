@@ -15,6 +15,17 @@ export function Header() {
     }
   }
 
+  const scrollToCatalog = () => {
+    const element = document.getElementById('catalog');
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  };
+
+
   return (
     <header className="bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4">
@@ -32,10 +43,10 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center justify-center space-x-8">
-            <a href="#catalog" className="text-foreground hover:text-primary transition-colors">
+            <button onClick={scrollToCatalog} className="text-foreground hover:text-primary transition-colors cursor-pointer">
               Каталог
-            </a>
-            <button onClick={scrollToFooter} className="text-foreground hover:text-primary transition-colors">
+            </button>
+            <button onClick={scrollToFooter} className="text-foreground hover:text-primary transition-colors cursor-pointer">
               Контакты
             </button>
           </nav>
